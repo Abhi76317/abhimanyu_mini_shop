@@ -1,0 +1,26 @@
+.App {
+  /* height: 95vh; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container{
+  margin-top: 300px;
+}
+
+@media screen and (max-width: 992px) {
+  .container{
+    margin-top: 360px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container{
+    margin-top: 420px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container{
+    margin-top: 600px;
+  }
+}
